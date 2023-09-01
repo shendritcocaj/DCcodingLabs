@@ -5,7 +5,6 @@ import Services from "./Services/Services";
 import ContactUs from "./ContactUs/ContactUs";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import ScrollToTop from "./scrollToTop/ScrollToTop";
 
 const MainPage = () => {
   return (
@@ -17,7 +16,6 @@ const MainPage = () => {
       <Services />
       <ContactUs />
       <Footer />
-      {/* <ScrollToTop /> */}
     </div>
   );
 };
