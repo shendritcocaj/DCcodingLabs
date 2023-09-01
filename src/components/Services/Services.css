@@ -1,0 +1,125 @@
+.services {
+  padding-top: 10rem;
+  background-image: linear-gradient(to right, #002663, #09a7f3);
+  height: 80vh;
+}
+
+.services-title {
+  font-size: 4.5rem;
+  min-width: 300px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.services-subtitle {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+  font-family: "Popins", sans-serif;
+
+  margin-bottom: 8rem;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  /* padding: 0 2rem; */
+}
+
+.service-card {
+  width: 40rem;
+  height: 60rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 15rem 5rem 3rem 5rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.service-icon {
+  font-size: 5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.service-card-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Gilroy", sans-serif;
+}
+
+.service-card-subtitle {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "Gilroy", sans-serif;
+  color: #777;
+  position: absolute;
+  top: 37rem;
+  opacity: 0;
+  padding: 0 5rem 3rem 0;
+  transition: 1s;
+}
+
+.service-card:hover .service-card-subtitle {
+  opacity: 1;
+  top: 27rem;
+}
+
+.service-card:hover {
+  padding: 8rem 5rem 3rem 5rem;
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .services-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .services-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .service-card {
+    width: 60%;
+    height: 60rem;
+    padding: 15rem 2rem 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  .services {
+    height: auto;
+    padding-bottom: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .service-card {
+    width: 80%;
+    height: 60rem;
+    padding: 15rem 2rem 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+}
+
+@media (min-width: 1100px) {
+  .services-cards {
+    padding: 0 2rem;
+  }
+}

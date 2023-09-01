@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@font-face {
+  font-family: Gilroy;
+  /* src: url(../public/Gilroy-Regular.ttf); */
+  src: url(/Gilroy-Medium.ttf);
+  /* src: url(../public/Gilroy-Bold.ttf); */
+}
+
+body {
+  /* background-color: #efebeb; */
+  font-family: "Gilroy", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========== BRAKPOINTS================ */
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 30em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 40%;
+  }
+}
