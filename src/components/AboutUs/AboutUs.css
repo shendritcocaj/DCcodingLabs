@@ -169,12 +169,12 @@
 @media (max-width: 500px) {
   .aboutus-image {
     width: 90%;
-    top: 105rem;
+    top: 125rem;
     left: 5rem;
   }
 
   .aboutus-card {
-    top: 54rem;
+    top: 64rem;
     left: 6rem;
   }
 
@@ -186,7 +186,7 @@
     z-index: 3;
     width: 33rem;
     height: 33rem;
-    top: 85rem;
+    top: 95rem;
     right: -5rem;
   }
 
@@ -194,7 +194,7 @@
     color: #09a7f3;
     font-size: 8rem;
     position: absolute;
-    top: 43.5rem;
+    top: 52rem;
     left: 23rem;
   }
 
