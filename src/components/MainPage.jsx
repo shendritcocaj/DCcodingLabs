@@ -17,7 +17,7 @@ const MainPage = () => {
       <Services />
       <ContactUs />
       <Footer />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </div>
   );
 };
